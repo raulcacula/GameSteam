@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game steam</title>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <link rel="stylesheet" href="store.css">
+
+    <header>
+        <nav class="nav">
+            <div class="linha-left">
+                <a >
+                <button onclick="OpenFrds()">
+                    Amigos
+                </button>
+                </a>
+            </div>
+
+            <div class="linha-center">
+                <a href="">
+                <h1>Crie uma conta</h1>
+                <img src="https://cdn-icons-png.flaticon.com/512/9187/9187604.png" alt="">
+                </a>
+            </div>
+
+            <div class="linha-right">
+                <button onclick="OpenSearch()">
+                    pesquisar
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="search-btn">
+
+                <div class="searchs">
+
+                <div class="btn-x">
+                <button onclick="closeSearch()" class="btn-left">voltar x</button>
+                </div>
+
+                <input id="search" type="text" placeholder="O que deseja pesquisar..?">
+                <button class="search-btn2"><i class="fa-solid fa-magnifying-glass"></i></button>                <div class="jogos-search">
+                    </div>     
+
+                </div><!--SEARCH DIV-->
+                <h1 class="search-h1">Sugestões</h1>
+
+                <div class="game" id="template-areas">
+
+                    <a class="game-a" href="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                    <div class="game-title">
+                    <h1>Fortnite</h1>
+                    <p>Battle Royal, ONLINE</p>
+                    </div><!--GAME TITLE-->
+                    </a>
+
+                    <a class="game-a2" href="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                        <div class="game-title">
+                        <h1>Fortnite</h1>
+                        <p>Battle Royal, ONLINE</p>
+                        </div><!--GAME TITLE-->
+                        </a>
+
+                        <a class="game-a3" href="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                            <div class="game-title">
+                            <h1>Fortnite</h1>
+                            <p>Battle Royal, ONLINE</p>
+                            </div><!--GAME TITLE-->
+                            </a>
+
+                            <a class="game-a4" href="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                                <div class="game-title">
+                                <h1>Fortnite</h1>
+                                <p>Battle Royal, ONLINE</p>
+                                </div><!--GAME TITLE-->
+                                </a>
+
+                                <a class="game-a5" href="">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                                    <div class="game-title">
+                                    <h1>Fortnite</h1>
+                                    <p>Battle Royal, ONLINE</p>
+                                    </div><!--GAME TITLE-->
+                                    </a>
+
+                                    <a class="game-a6" href="">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqjdKdTHMMhHfZUdd76OH1slmJwJhsFBLAg&s" alt="">
+                                        <div class="game-title">
+                                        <h1>Fortnite</h1>
+                                        <p>Battle Royal, ONLINE</p>
+                                        </div><!--GAME TITLE-->
+                                        </a>
+
+                 
+                </div>
+            </div><!--seaRCH btn-->
+
+            <div class="bar-amigos">
+                <div class="amigos">
+                    <h1>Crie uma conta para continuar</h1>
+                    <a href="">Cria conta/Logar</a>
+                </div>
+                <button onclick="CloserFr()">></button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <div class="inicio-cine">
+        <div class="cine-img">
+            <div class="batt-img"></div>
+
+            <div class="Battlefield-texto">
+                <h1>Battlefield <span>2042</span></h1>
+                <div class="personagem-batt">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/0117/Qwiq3V9w6RLCI7tdT2TDqSku.png" alt="">
+                <div class="perso-montanha">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/853/977/non_2x/mountain-landscape-free-png.png" alt="">
+                </div>
+                </div><!--BATT-->
+            </div>
+        </div>
+
+        <div class="tela-battt">
+            <a href="">
+            <img src="https://smartcdkeys.com/image/cache/catalog/image/cache/data/products/battlefield-2042/cover/battlefield-2042-ps5-smartcdkeys-cheap-cd-key-cover-390x580.webp" alt="">
+            <img src="https://cdn.awsli.com.br/2472/2472867/produto/266968474/battlefield-2042-xbox-one-midia-digital-cf7a7bed-v02jma45g6.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="cate-games">
+        <div class="cate-btn">
+            <button>
+                tiros
+            </button>
+            <button>
+                automobilistico
+            </button>
+            <button>
+                ação
+            </button>
+            <button>
+                esporte
+            </button>
+            <button>
+                rpg
+            </button>
+            <button>
+                terror
+            </button>
+            <button>
+                mais
+            </button>
+        </div>
+    </div>
+
+    <div class="games-container" id="template-areas">
+        
+        <div id="slide-games">
+            <div class="resi-img">
+                <button>
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/BiS5QP6h4506JHyJlZlVzK9D.jpg" alt="">
+                </button>
+            </div>
+            </div>
+
+        <div id="game-frame">
+            <div class="block-promo">
+                <button>
+                    <img src="https://macmagazine.com.br/wp-content/uploads/2023/10/02-Counter-Strike-2.jpg" alt="">
+                    <span>
+                        Dê <s>99,00</s> para 78,00
+                    </span>
+                </button>
+                <button>
+                    <img src="https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3?q=90&w=256&h=384&mode=crop&format=jpg&background=%23FFFFFF" alt="">
+                    <span>
+                        Dê <s>29,99</s> para 16,99
+                    </span>
+                </button>
+                
+            </div>
+        </div>        
+    </div><!--CONTAINER-->
+
+
+    <div class="card-game">
+        <div class="card">
+            <button>
+                <img src="https://img.odcdn.com.br/wp-content/uploads/2022/11/google-play-games-beta.jpg" alt="">
+                <h1>Promoções do mês</h1>
+                <span></span>
+            </button>
+            <button>
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/the-crew-motorfest-hero-banner-desktop-01-en-30may23?$native$" alt="">
+                <h1>novos games</h1>
+                <span class="card-2"></span>
+            </button>
+            <button>
+                <img src="https://i.pcmag.com/imagery/roundups/07sBMitXcz0UXdYU6LowlQt-2.fit_lim.size_850x490.v1648837830.jpg" alt="">
+                <h1>games do mês</h1>
+                <span class="card-2"></span>
+            </button>
+        </div>
+    </div>
+    
+
+    <div class="games-info">
+        <div class="games-block">
+            <button>
+                <img class="img-inicio-game" src="https://cdn1.epicgames.com/spt-assets/edaff839f0734d16bc89d2ddb1dc9339/steel-magnolia-15owu.jpg?resize=1&w=480&h=270&quality=medium" alt="">
+                <div class="game-text">
+                <h1>God of WAR Ragnarok</h1>
+                <p>ação, aventura e RPG</p>
+                <div class="buy-text">
+                    <span><s>r$ 279,99  </s> r$ 249,98</span>
+                </div>
+                </div>
+                <div class="game-miniatura">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqtxvFKjjv3bjOlJBcAioG1SrP5wqAUucZg&s" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwNyjjuSN9hxjMF15gjLgtwZCjkoVwGZhaeA&s" alt="">
+                    <img src="https://meups.com.br/wp-content/uploads/2022/12/God-of-War-Ragnarok-1-900x503.jpg.webp" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqtxvFKjjv3bjOlJBcAioG1SrP5wqAUucZg&s" alt="">
+                </div>
+            </button>
+
+            <button>
+                <img class="img-inicio-game" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1730830713" alt="">
+                <div class="game-text">
+                <h1>forza horizon 5</h1>
+                <p>Ação, Aventura, Corrida, Simulação, Esportes</p>
+                <div class="buy-text">
+                    <span><s>r$ 250,99  </s> r$ 214,99</span>
+                </div>
+                </div>
+                <div class="game-miniatura">
+                    <img src="https://t2.tudocdn.net/597740?w=1920" alt="">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1613284/capsule_616x353.jpg?t=1703992150" alt="">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2614920/ss_3328acc5878cbffbc81ac3bbf497a54e5d459f38.1920x1080.jpg?t=1703991599" alt="">
+                    <img src="https://img.odcdn.com.br/wp-content/uploads/2021/07/ForzaHorizon5-05-16x9_WM_FestivalRace-scaled.jpg" alt="">
+                </div>
+            </button>
+
+
+            <button>
+                <img class="img-inicio-game" src="https://cdn1.epicgames.com/offer/b61e8ddd14e94619b7a74cf9d73f86b5/EGS_EASPORTSFC25UltimateEdition_EACanada_Editions_S1_2560x1440-3c3af455d1d18b0058183a49743cbcb1" alt="">
+                <div class="game-text">
+                <h1>EA SPORTS FC™ 25</h1>
+                <p> Simulação, Esportes</p>
+                <div class="buy-text">
+                    <span><s>r$ 199,99  </s> r$ 178,00</span>
+                </div>
+                </div>
+                <div class="game-miniatura">
+                    <img src="https://store-images.s-microsoft.com/image/apps.13112.13862251612333050.ec09080a-b13c-432f-96c1-4c1d38bfef9c.e21effb5-4cd7-4a88-beb1-58c8c1d08015?q=90&w=480&h=270" alt="">
+                    <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/software/switch/70010000074799/59f68709163d178823ab14d8d09c24e892696dd7e25ade5732bd324c1871c8d2" alt="">
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/2615/0b1cedf70742a0aea89ded2ecdb28fc9e5ee577f9a0860a7.jpg" alt="">
+                    <img src="https://img.redbull.com/images/c_crop,x_45,y_0,h_720,w_960/c_fill,w_800,h_572/q_auto,f_auto/redbullcom/2023/6/14/zpouqjupt3letelw9p2v/ea-sports-fc-25-football" alt="">
+                </div>
+            </button>
+
+            
+            <button>
+                <img class="img-inicio-game" src="https://image.api.playstation.com/cdn/EP0001/CUSA05847_00/pEBJnRh6DeL2BfyZRa9jZRrNuSav42QPJIXyqo6Rgcr52o9kYLwY4EpouAzWh4Fu.png" alt="">
+                <div class="game-text">
+                <h1>far cry 5</h1>
+                <p>Ação, Aventura, Simulação</p>
+                <div class="buy-text">
+                    <span><s>r$ 179,99  </s> r$ 99,98</span>
+                </div>
+                </div>
+                <div class="game-miniatura">
+                    <img src="https://store.ubisoft.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw55e61ee4/images/large/591567f6ca1a6460388b4568-11.jpg?sw=500&sh=270&sm=fit" alt="">
+                    <img src="https://assetsio.gnwcdn.com/far-cry-5-libertar-e-destruir-locais-de-culto-truques-e-dicas-para-derrotares-jacob-faith-e-john-1522314301197.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_GNJoqcKItT7TBnPrbyqE4CJFtHikexXwPg&s" alt="">
+                    <img src="https://lojaibyte.vteximg.com.br/arquivos/ids/322757/https://www.ibyte.com.br/jogo-far-cry-5-ps4.jpg?v=637678447694800000" alt="">
+                </div>
+            </button>
+        </div>
+    </div>
+    
+
+
+<div class="poster-div">
+    <div class="poster">
+        <div class="poster-text">
+        <h1>Inicie sua sessão agora </h1>
+        <a href="">iniciar</a>
+        </div>
+        <div class="poster-img">
+            <img src="https://media.tenor.com/ujPNOJ0ydOoAAAAj/pusheen-gaming-me-as-fweak.gif" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="titulo-conta">
+    <h1>% GAMES NA OFERTA %</h1>
+</div>
+
+
+<div class="gamesFlex-container" id="template-areas">
+
+    <div id="game-1">
+        <div class="game-flex">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg?t=1732538023" alt="">
+            <div class="img-gif">
+                <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/4036972/73f2719934ef144333498ac8c3232621c544e0c4.gif" alt="">
+                <img src="https://3.bp.blogspot.com/-hwwzHZm0Bj8/Wg2bvafKryI/AAAAAAAANEo/QBKpYcDbGBoPMENgfVYT5--7bjLqcW4rwCLcBGAs/s320/Scania-NextGen.gif" alt="">         
+                </div>
+                <div class="game-text2">
+                    <h1>euro truck simulador 2</h1>
+                    <div class="game-text-column">
+                        <h2>-50%</h2>
+                        <span>
+                            <s>r$30,00</s>
+                            <br>
+                            r$15,00 
+                        </span>
+                    </div>
+                    </div>
+        </div>
+    </div>
+
+    <div id="game-2">
+        <div class="game-flex">
+            <img src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png" alt="">
+            <div class="img-gif">
+                <img src="https://media4.giphy.com/media/fjxbfQKLcKzAJIqSuD/giphy.gif" alt="">
+                <img src="https://media4.giphy.com/media/fjxbfQKLcKzAJIqSuD/giphy.gif" alt="">
+            </div>
+            <div class="game-text2">
+            <h1>Red Dead Redemption 2</h1>
+            <div class="game-text-column">
+                <h2>-21%</h2>
+                <span>
+                    <s>r$199,00</s>
+                    <br>
+                    r$41,79 
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div id="game-3">
+        <div class="game-flex">
+            <img src="https://t2.tudocdn.net/699594?w=1920" alt="">
+            <div class="img-gif">
+                <img src="https://media0.giphy.com/media/sU3WJZQefGwtipSnnL/200_d.gif" alt="">
+                <img src="https://giffiles.alphacoders.com/213/213760.gif" alt="">
+            </div>
+            <div class="game-text2">
+            <h1>Palworld
+            </h1>
+            <div class="game-text-column">
+                <h2>-25%</h2>
+                <span>
+                    <s>r$80,99</s>
+                    <br>
+                    r$66,74
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="game-4">
+        <div class="game-flex">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0619/QqYT3DO4cGEcFcwF708vsL1i.png" alt="">
+            <div class="img-gif">
+                <img src="https://fymfb.com/wp-content/uploads/2015/03/gardensandgraveyards.gif" alt="">
+                <img src="https://i.makeagif.com/media/4-12-2016/LXxeOp.gif" alt="">
+            </div>
+            <div class="game-text2">
+            <h1>plants vs zombies garden warfare 2</h1>
+            <div class="game-text-column">
+                <h2>-50%</h2>
+                <span>
+                    <s>r$30,99</s>
+                    <br>
+                    r$14,99
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div id="game-5">
+        <div class="game-flex">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202006/1520/EDtkdijFRwbmGKk1G9lrDoEF.png" alt="">
+            <div class="img-gif">
+                <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7kV8JlinFTzCdZZcXyJi1Y/8cb4dcaf5cf894b81d183c1feca59c46/ACV_Niflheim.gif" alt="">
+                <img src="https://steamuserimages-a.akamaihd.net/ugc/1018320607935168560/C874D3EF238E0F6EBD4C6F3E321213BC572363AE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="">
+            </div>
+            <div class="game-text2">
+            <h1>assassin's creed valhalla</h1>
+            <div class="game-text-column">
+                <h2>-25%</h2>
+                <span>
+                    <s>r$209,99</s>
+                    <br>
+                    r$83,99
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="game-6">
+    <div class="game-flex">
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/header.jpg?t=1733904276" alt="">
+        <div class="img-gif">
+            <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2767030/extras/2.fast_and_fun_6V6.gif?t=1732182356" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgyWJ72bu3kVhB5VwU3aJAsXWH7tMMaM1Ng&s" alt="">
+        </div>
+        <div class="game-text2">
+        <h1>marvel rivals</h1>
+        <div class="game-text-column">
+            <h2>-50%</h2>
+            <span>
+                <s>r$30,99</s>
+                <br>
+                r$14,99
+            </span>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div id="game-7">
+    <div class="game-flex">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png" alt="">
+        <div class="img-gif">
+            <img src="https://clan.fastly.steamstatic.com/images//35210272/fdebe757a2d84a897913a96320b66bf68a986bf9.gif" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYAHY0aXUZ8pNDPdS5oP-b_zNWBh42ZwSbg&s" alt="">
+        </div>
+        <div class="game-text2">
+        <h1>Cybepunk 2077</h1>
+        <div class="game-text-column">
+            <h2>-20%</h2>
+            <span>
+                <s>r$210,99</s>
+                <br>
+                r$42,99
+            </span>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div id="game-8">
+    <div class="game-flex">
+        <img src="https://cdn1.epicgames.com/spt-assets/91fdf8a25bef498984af2e46d106c664/skobeloff-14hxb.jpg" alt="">
+        <div class="img-gif">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLFlJj8bs97N987GGsVBPRZIfX7heDKpwFw&s" alt="">
+            <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2484110/extras/Gif_SEJ_Sample_01_-_deliverable.gif?t=1712120882" alt="">
+        </div>
+        <div class="game-text2">
+        <h1>FINAL FANTASY XVI</h1>
+        <div class="game-text-column">
+            <h2>-25%</h2>
+            <span>
+                <s>r$219,90</s>
+                <br>
+                r$164,92
+            </span>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="game-9">
+    <div class="game-flex">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png" alt="">
+        <div class="img-gif">
+            <img src="https://i0.wp.com/media.tenor.com/3OZItpCKXr8AAAAd/resident-evil-resident-evil4.gif?w=1170&ssl=1" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn2kVPkfejS9uZqJ1_j46jknwqlT4clSDmFQ&s" alt="">
+        </div>
+        <div class="game-text2">
+        <h1> Resident Evil 4</h1>
+        <div class="game-text-column">
+            <h2>-50%</h2>
+            <span>
+                <s>r$139,00</s>
+                <br>
+                r$69,50
+            </span>
+        </div>
+    </div>
+</div>
+</div>
+</div><!--CONTAINER-->
+
+
+<div class="poster-game">
+    <div class="poster-2">
+        <div class="poster-text-game">
+            <div>
+        <h1>Hiperdesconto da semana</h1>
+        <p>descontos atualizados toda semana!! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda hic id doloribus </p>
+            </div>
+        <a href="">conhecer</a>
+        </div>
+        <div class="poster-game-img">
+            <img class="poster-1" src="https://image.api.playstation.com/vulcan/img/cfn/11307fllh6D-IvbpCa18N0vRggVeRYWA06paTNCj3DENJMScAzW2f3ry4IwFcXBAt9kWXdZGpGoOGjxJ_e9MdordMVAosNhZ.png" alt="">
+            <div class="poster-game-gif">
+                <img class="gif-1" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/extras/cuphead_game_about_header_optimized.gif?t=1709068852" alt="">
+                <img class="gif-2" src="https://pa1.aminoapps.com/6606/3bc2d31469b733e041bbd2752324cf8e4f7a485c_hq.gif" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="poster-game poster-game2">
+    <div class="poster-2 poster-card2">
+        <div class="poster-text-game">
+            <div>
+        <h1>Hiperdesconto da semana</h1>
+        <p>descontos atualizados toda semana!!</p>
+            </div>
+        <a href="">conhecer</a>
+        </div>
+        <div class="poster-game-img">
+            <img class="poster-1" src="https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png" alt="">
+            <div class="poster-game-gif">
+                <img class="gif-1" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/extras/T1XPC_20240828M1_046_PC_Gameplay_v2.gif?t=1728603021" alt="">
+                <img class="gif-2" src="https://pa1.aminoapps.com/7582/f2b641f6d8474ee2e11fa228887f72ab214fe316r1-480-270_00.gif" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="poster-game poster-game2">
+    <div class="poster-2 poster-card3">
+        <div class="poster-text-game">
+            <div>
+        <h1>Hiperdesconto da semana</h1>
+        <p>descontos atualizados toda semana!!</p>
+            </div>
+        <a href="">conhecer</a>
+        </div>
+        <div class="poster-game-img">
+            <img class="poster-1" src="https://cdn1.epicgames.com/offer/4bc43145bb8245a5b5cc9ea262ffbe0e/EGS_MarvelsSpiderManRemastered_InsomniacGamesNixxesSoftware_S1_2560x1440-73702d11161b29a0b7c40a8b489b1808" alt="">
+            <div class="poster-game-gif">
+                <img class="gif-1" src="https://pa1.aminoapps.com/6916/c50cb1bd5ec6cf6390e27c8c893e078f0aafc830r1-640-360_hq.gif" alt="">
+                <img class="gif-2" src="https://i.makeagif.com/media/11-03-2023/aSRN-t.gif" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="login">
+    <div class="login-container">
+        <div class="login-titulo">
+            <img src="logo.png" alt="">
+        <h1>
+             entrar com a Game steam <span>|</span>
+        </h1>
+
+        </div>
+
+        <div class="login-input">
+            <p>Email</p>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <p>senha</p>
+            <input type="password" id="senha">
+            <button class="Esqueci-senha">Esqueci a senha!</button>
+
+            <button id="enter">entrar</button>
+        </div>
+        <a href="" class="cadastrar">Ainda sem conta? Cadastra-se agora</a>
+    </div>
+    <div class="sem-login" onclick="fecharLo()">
+        <button>Entrar sem login</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footer-conteudo">
+        <div class="inicio-footer">
+            <a href="">inicio</a>
+            <a href="">criar conta</a>
+            <a href="">Promoções</a>
+            <a href="">pesquisar</a>
+        </div>
+    </div>
+    <div class="column-footer">
+        <a href="">Feedback</a>
+        <a href="">adicionados recentemente</a>
+    </div>
+
+    <div class="column-promo">
+        <s><span>1 de janeiro <a href="">Desconto</a></span></s>
+        <span>Primeira compra <a href="">Desconto</a></span>
+        <span>10% de   <a href="">desconto</a></span>
+        <span>Primeira interação   <a href="">Desconto</a></span>
+    </div>
+
+    <div class="column-sobre">
+        <img src="logo.png" alt="">
+        <div class="sobre-a">
+            <h1>Sobre a Game steam</h1>
+            <a href="">suporte</a>
+            <a href="">Caixa de entrada</a>
+            <a href="">ajuda</a>
+        </div>
+    </div>
+
+
+    <div class="column-diretrizes">
+        <a href=""><i class="fa-brands fa-linkedin-in"></i> Linkedin</a>
+        <a href=""><i class="fa-brands fa-github"></i> Github</a>
+    </div>
+</footer>
+
+
+<script src="store.js"></script>
+
+
+   <!-- FONT -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+          <!-- FONT ROBOTO-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+      
+          <script src="https://kit.fontawesome.com/43fd509247.js" crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</body>
+</html>
